@@ -3,9 +3,11 @@ kind: Service
 metadata:
   name: devopsconfig
 spec:
+  type: NodePort
   selector:
     app: devopsconfig
   ports:
   - port: 9090
     protocol: TCP
     targetPort: 9090
+    nodePort: 30090
