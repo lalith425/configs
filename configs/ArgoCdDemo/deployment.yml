@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devopspipeline
-        image: lalith425/devopspipeline@sha256:cc439d30d0b733c3cabd542111b3c48d8fcb2095f669bc342ac0b82a1e2948dc
+        image: lalith425/devopsest@sha256:cc439d30d0b733c3cabd542111b3c48d8fcb2095f669bc342ac0b82a1e2948dc
         ports:
         - containerPort: 9090
