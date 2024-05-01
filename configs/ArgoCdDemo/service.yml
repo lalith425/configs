@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devopsconfig
+spec:
+  selector:
+    app: devopsconfig
+  ports:
+  - port: 9090
+    protocol: TCP
+    targetPort: 9090
